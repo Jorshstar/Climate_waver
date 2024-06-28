@@ -15,6 +15,11 @@ body {
   margin-bottom: 1.5rem;
 }
 
+textarea.form-control {
+  resize: vertical; /* Allows the textarea to be resized vertically */
+  min-height: 100px; /* Sets a minimum height */
+}
+
 
 .sidebar-sticky {
   position: -webkit-sticky;
